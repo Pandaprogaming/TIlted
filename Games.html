@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTG's Game Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            height: 100vh;
+            background: black url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .ttg-text {
+            position: absolute;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 24px;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.9); /* Changed the transparency level */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 40px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <a href="index.html">Home</a>
+    </div>
+
+
+    <!-- "The Tilted Gamer" text scattered around the background -->
+    <div class="ttg-text" style="top: 10%; left: 10%;">The Tilted Gamer</div>
+    <div class="ttg-text" style="top: 25%; left: 75%;">The Tilted Gamer</div>
+    <div class="ttg-text" style="top: 40%; left: 45%;">The Tilted Gamer</div>
+    <div class="ttg-text" style="top: 55%; left: 85%;">The Tilted Gamer</div>
+    <div class="ttg-text" style="top: 80%; left: 25%;">The Tilted Gamer</div>
+
+
+    <div class="container">
+        <h1>Welcome to TTG's Game Page</h1>
+        <p>Explore our collection of exciting games and have fun!</p>
+        <div class="game">
+            <h2>Game 1: Adventure Quest</h2>
+            <p>Description: Embark on an epic journey filled with thrilling adventures and challenging quests.</p>
+            <a href="https://example.com/adventure_quest" target="_blank">Play Now</a>
+        </div>
+        <div class="game">
+            <h2>Soon TM</h2>
+            <p>Description: Stay tuned for an exciting upcoming game!</p>
+        </div>
+        <!-- Add more game entries as needed -->
+    </div>
+</body>
+</html>
